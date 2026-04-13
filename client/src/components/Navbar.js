@@ -24,11 +24,7 @@ function Navbar() {
           <h1 className="brand">UrbanFit</h1>
         </a>
         <nav>
-          <a href="#services">Services</a>
-          <a href="#membership">Membership</a>
-          <a href="#trainers">Trainers</a>
-          <a href="#schedule">Schedule</a>
-          <a href="#gallery">Gallery</a>
+          
           <a href="#contact">Contact</a>
         </nav>
         <div className="nav-actions">
