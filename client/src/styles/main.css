@@ -146,6 +146,15 @@ nav a:hover {
   margin-top: 0;
 }
 
+.nav-inner {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.85rem 0;
+}
+
 .nav-actions {
   display: flex;
   flex-wrap: wrap;
@@ -747,5 +756,55 @@ h3 {
 
   .video-section {
     height: 62vh;
+  }
+}
+
+/* --- everything you already have stays above --- */
+
+@media (max-width: 820px) {
+  .nav-inner {
+    flex-direction: column;
+  }
+
+  .schedule-item {
+    grid-template-columns: 1fr;
+  }
+
+  .video-section {
+    height: 62vh;
+  }
+}
+
+/* --- ADD THIS NEW BLOCK AT THE VERY BOTTOM --- */
+@media (max-width: 767px) {
+  .nav-inner {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  nav {
+    display: none;
+  }
+
+  .desktop-nav {
+    display: none;
+  }
+
+  .nav-actions {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 0.4rem;
+  }
+
+  .nav-actions .btn {
+    padding: 0.45rem 0.75rem;
+    font-size: 0.75rem;
+  }
+
+  .nav-link-btn {
+    font-size: 0.75rem;
+    padding: 0.3rem 0.4rem;
   }
 }

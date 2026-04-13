@@ -23,10 +23,7 @@ function Navbar() {
           </span>
           <h1 className="brand">UrbanFit</h1>
         </a>
-        <nav>
-          
-          <a href="#contact">Contact</a>
-        </nav>
+        
         <div className="nav-actions">
           {user ? (
             <>
