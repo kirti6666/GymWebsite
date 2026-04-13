@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # UrbanFit - MERN Stack
 
 Full MERN stack gym website with:
@@ -20,3 +21,7 @@ Full MERN stack gym website with:
 
 Frontend: `http://localhost:3000`
 Backend: `http://localhost:5000`
+=======
+# GymWebsite
+A code for java script 
+>>>>>>> 6d0caf330903dec8c479d4c5a1437f96f9bbd3e9
