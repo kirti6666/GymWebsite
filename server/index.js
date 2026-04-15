@@ -11,7 +11,7 @@ const PORT = process.env.PORT || 5000;
 console.log( process.env.CLIENT_URL)
 app.use(
   cors({
-    origin:"https://gymwebsite-1-ft70.onrender.com/",
+    origin: process.env.CLIENT_URL || "http://localhost:3000",
     credentials: true
   })
 );
